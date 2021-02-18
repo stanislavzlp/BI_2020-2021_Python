@@ -39,4 +39,3 @@ def mix_letters_in_words(text_to_mix):
 mix_letters_in_words(text)
 
 
-

@@ -25,12 +25,11 @@ for number in range(qty):
 x = list(range(1, qty + 1))
 
 plt.grid = True
-plt.plot(x, random_execution_time, label = "random")
-plt.plot(x, np_execution_time, label = "numpy")
+plt.plot(x, random_execution_time, label="random")
+plt.plot(x, np_execution_time, label="numpy")
 plt.xlabel("Количество всевдорандомных чисел")
 plt.ylabel("Время исполнения")
 plt.legend()
 plt.show()
-
 
 

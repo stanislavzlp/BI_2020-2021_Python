@@ -1,7 +1,8 @@
 import random
 import turtle
 
-def sierpinski_triangle(num = 500):
+def sierpinski_triangle(num=500):
+
     turtle.shape("circle")
     turtle.penup()
     x1, y1 = random.randint(-100, 200), random.randint(350, 450)
@@ -44,6 +45,5 @@ def sierpinski_triangle(num = 500):
 
 
 sierpinski_triangle(1000)
-
 
 

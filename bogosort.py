@@ -45,4 +45,3 @@ plt.errorbar(x, mean_all, yerr=std_all, fmt='.k')
 plt.show()
 
 
-
