@@ -1,9 +1,8 @@
 import random
 import turtle
 
+
 def sierpinski_triangle(num=500):
-
-
     turtle.shape("circle")
     turtle.penup()
     x1, y1 = random.randint(-100, 200), random.randint(350, 450)
@@ -25,19 +24,19 @@ def sierpinski_triangle(num=500):
     for i in range(num):
         new_position = random.randint(1, 3)
         if new_position == 1:
-            go_to_x = (current_position_x + x1)/2
+            go_to_x = (current_position_x + x1) / 2
             go_to_y = (current_position_y + y1) / 2
             turtle.goto(go_to_x, go_to_y)
             turtle.stamp()
             current_position_x, current_position_y = go_to_x, go_to_y
         elif new_position == 2:
-            go_to_x = (current_position_x + x2)/2
+            go_to_x = (current_position_x + x2) / 2
             go_to_y = (current_position_y + y2) / 2
             turtle.goto(go_to_x, go_to_y)
             turtle.stamp()
             current_position_x, current_position_y = go_to_x, go_to_y
         elif new_position == 3:
-            go_to_x = (current_position_x + x3)/2
+            go_to_x = (current_position_x + x3) / 2
             go_to_y = (current_position_y + y3) / 2
             turtle.goto(go_to_x, go_to_y)
             turtle.stamp()
