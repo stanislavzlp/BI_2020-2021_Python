@@ -46,4 +46,3 @@ def sierpinski_triangle(num=500):
 
 
 sierpinski_triangle(1000)
-
