@@ -6,7 +6,6 @@ text = str(input())
 
 def mix_letters_in_words(text_to_mix):
 
-
     x = text_to_mix.split(' ')
     mixed_text = []
     for i in range(len(x)):
@@ -14,10 +13,10 @@ def mix_letters_in_words(text_to_mix):
         if len(word_to_mix) > 2:
             last_letter = word_to_mix[-1]
             first_letter = word_to_mix[0]
-            if not bool(re.match('\w', last_letter)):
+            if not bool(re.match('r\w', last_letter)):
                 last_letter = word_to_mix[-2]
                 punctuation_mark = True
-            elif bool(re.match('\w', last_letter)):
+            elif bool(re.match('r\w', last_letter)):
                 punctuation_mark = False
             if punctuation_mark:
                 mixing_part_list = list(word_to_mix[1:-2])
