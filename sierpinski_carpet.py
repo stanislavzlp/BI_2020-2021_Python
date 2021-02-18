@@ -25,5 +25,3 @@ def sierpinski_carpet(level_of_depth, length):
 sierpinski_carpet(4, 400)
 turtle.done()
 
-
-

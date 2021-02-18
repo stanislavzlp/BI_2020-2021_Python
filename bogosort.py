@@ -44,4 +44,3 @@ x = list(range(2, max_len_to_sort + 1))
 plt.errorbar(x, mean_all, yerr=std_all, fmt='.k')
 plt.show()
 
-

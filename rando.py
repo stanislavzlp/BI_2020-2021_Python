@@ -32,4 +32,3 @@ plt.ylabel("Время исполнения")
 plt.legend()
 plt.show()
 
-
